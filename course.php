@@ -1,9 +1,9 @@
 <?php
 namespace studentManagment;
 
-//public readonly int $Id;
+
 class Course {
-    private $id;
+public readonly int $Id;  
     private $name ;
     public function __construct(int $id , string $name){
         $this->id =$id;
